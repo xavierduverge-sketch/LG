@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+
     <identifier>BARNA-001</identifier>
     <sender>it@barna.edu.do</sender>
     <sent>2026-09-02T12:00:00-04:00</sent>
+
     <status>Actual</status>
     <msgType>Alert</msgType>
     <scope>Public</scope>
@@ -10,6 +12,7 @@
     <info>
         <category>Safety</category>
         Prueba de Emergencia
+
         <urgency>Immediate</urgency>
         <severity>Severe</severity>
         <certainty>Observed</certainty>
@@ -17,8 +20,7 @@
         <headline>Prueba CAP LG</headline>
 
         <description>
-            Esta es una prueba de alerta enviada a las pantallas LG
-            mediante LG ConnectedCare DMS.
+            Esta es una prueba de alerta enviada a las pantallas LG mediante LG ConnectedCare DMS.
         </description>
 
         <instruction>
@@ -29,4 +31,5 @@
             <areaDesc>Campus BARNA</areaDesc>
         </area>
     </info>
+
 </alert>
